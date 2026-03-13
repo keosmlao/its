@@ -67,9 +67,9 @@ export const STATUS_CONFIG: Record<string, { label: string; color: string }> = {
   closed: { label: 'ປິດ Job', color: 'success' },
 }
 
-export const PRIORITY_CONFIG: Record<string, { label: string; color: string }> = {
-  low: { label: 'ຕ່ຳ', color: 'low' },
-  medium: { label: 'ກາງ', color: 'medium' },
-  high: { label: 'ສູງ', color: 'high' },
-  critical: { label: 'ວິກິດ', color: 'critical' },
+export const PRIORITY_CONFIG: Record<string, { label: string; color: string; dot: string }> = {
+  low: { label: 'ຕ່ຳ', color: 'low', dot: '#94a3b8' },
+  medium: { label: 'ກາງ', color: 'medium', dot: '#3b82f6' },
+  high: { label: 'ສູງ', color: 'high', dot: '#f59e0b' },
+  critical: { label: 'ວິກິດ', color: 'critical', dot: '#ef4444' },
 }
